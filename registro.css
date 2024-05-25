@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    background-color: #e0e0ff; /* Color de fondo general */
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-panel {
+    background-color: #dcdcff; /* Color de fondo del panel izquierdo */
+    clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%); /* Forma recortada del panel izquierdo */
+}
+
+.right-panel {
+    background-color: #afb2ff;
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #c2b6e2; /* Borde azul para los inputs */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50; /* Color del botón */
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Color del botón al pasar el ratón */
+}
+
+

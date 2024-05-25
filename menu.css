@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0e0ff; /* Color de fondo de los contenedores de las tarjetas */
+    padding: 20px 0;
+}
+
+.card {
+    width: 140px;
+    text-align: center;
+    background-color: #dcdcff; /* Color de fondo de cada tarjeta */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
+
+.card span {
+    display: block;
+    margin-top: 10px;
+}
+
+img.IPN{
+    width: 50px;  /* Ancho de la imagen */
+    height: 50px; /* Alto de la imagen */
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <img src="Imagenes/IPN_Logo.webp" alt="Logo IPN">
+        </div>
+        <div class="right-panel">
+            <h2>Completa para tu registro</h2>
+            <form action="/submit-your-registration-form" method="POST">
+                <input type="text" placeholder="Nombre completo" name="fullname" required>
+                <input type="text" placeholder="Usuario" name="username" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <input type="password" placeholder="Contraseña" name="password" required>
+                <input type="password" placeholder="Confirmar Contraseña" name="confirm_password" required>
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

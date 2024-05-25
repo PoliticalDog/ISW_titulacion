@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <header>
+        <img src="Imagenes/IPN_Logo.webp" alt="Logo IPN" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Biblioteca</a></li>
+                <li><a href="#">Búsquedas</a></li>
+                <li><a href="#">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="search-container">
+        <h1>Biblioteca</h1>
+        <p>¿Qué quieres buscar?</p>
+        <form action="/search-results" method="GET">
+            <input type="text" placeholder="Busca libros, artículos o otras publicaciones" name="search">
+            <button type="submit">🔍</button>
+            <button type="button" class="advanced-search">Búsqueda avanzada</button>
+        </form>
+    </div>
+</body>
+</html>
