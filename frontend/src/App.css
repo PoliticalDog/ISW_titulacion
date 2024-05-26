@@ -1,18 +1,36 @@
 /* src/App.css */
+
 .navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: #130f3b;
+  color: #ffffff; /* Color del texto original (blanco) */
   padding: 1rem;
+  display: flex; /* Usamos flexbox para alinear elementos */
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  align-items: center; /* Centra verticalmente los elementos */
 }
 
 .navbar ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
+  margin: 0; /* Eliminamos el margen predeterminado de la lista */
+  padding: 0; /* Eliminamos el padding predeterminado de la lista */
 }
 
 .navbar ul li {
   margin-right: 1rem;
+  color: beige; /* Color claro para el texto del navbar */
+}
+
+.navbar-logo {
+  display: flex; /* Usamos flexbox para alinear elementos */
+  align-items: center; 
+  flex-grow: 1;/* Centra verticalmente los elementos */
+}
+
+.navbar-logo logo {
+  height: 90px; /* Ajusta la altura del logo según tus necesidades */
+  margin-right: auto;
 }
 
 .content {

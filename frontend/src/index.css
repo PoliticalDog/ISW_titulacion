@@ -1,17 +1,18 @@
 /* src/index.css */
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background: linear-gradient(90deg, rgba(2,81,122,0.5) 0%, rgba(0,137,206,0.5) 49%, rgba(126,119,153,0.5) 67%);
   margin: 0;
   padding: 0;
 }
 
 h2 {
-  color: #333;
+  color: #ffffff;
 }
 
 .error {
-  color: #f44336;
+  color: #9e0000;
 }
 
 .success {
